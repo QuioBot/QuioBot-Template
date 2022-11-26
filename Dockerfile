@@ -18,10 +18,12 @@ RUN npm install
 # copy project files and folders to the current working directory (i.e. 'app' folder)
 COPY . .
 
+RUN npm install -D webpack-cli -y
+
 # build app for production with minification
 RUN npm run build
 
-# RUN npm install webpack@5.75.0 --force
+RUN npm install webpack@5.75.0 --force
 
 EXPOSE 8080
 CMD [ "http-server", "dist" ]

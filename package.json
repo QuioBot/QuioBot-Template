@@ -46,5 +46,5 @@
     "last 2 versions",
     "not dead"
   ],
-  "dev": "webpack-dev-server --inline --history-api-fallback --progress --config build/webpack.dev.conf.js"
+  "dev": "webpack-dev-server --inline --history-api-fallback --progress --config webpack.dev.conf.js"
 }

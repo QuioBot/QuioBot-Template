@@ -8,9 +8,9 @@
         
       </div>
       <p v-else>
-        <span><a href="/register">Register</a></span>
+        <span><a href="/#register">Register</a></span>
         <span> or </span>
-        <span><a href="/login">Log In</a></span>
+        <span><a href="/#login">Log In</a></span>
       </p>
     </section>
   </template>

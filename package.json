@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "webpack-dev-server --inline --history-api-fallback --progress --config build/webpack.dev.conf.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

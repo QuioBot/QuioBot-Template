@@ -8,9 +8,14 @@
         
       </div>
       <p v-else>
-        <span><a href="#register">Register</a></span>
-        <span> or </span>
-        <span><a href="#login">Log In</a></span>
+        <ul >
+              <li class="nav-item">
+                <router-link  to="/register">Register</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link  to="/login">Log In</router-link>
+              </li>
+          </ul>
       </p>
     </section>
   </template>

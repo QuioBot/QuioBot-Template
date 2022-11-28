@@ -8,7 +8,7 @@ import store from './store';
 
 
 axios.defaults.withCredentials = true;
-axios.defaults.baseURL = 'http://34.168.224.12/';
+axios.defaults.baseURL = 'http://35.227.158.176/';
 
 Vue.config.productionTip = false;
 

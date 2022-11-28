@@ -3,7 +3,13 @@
       
       <div class="login">
         <img src="MLOPS.png" class="center">
+        
       <form @submit.prevent="submit">
+        <div class="mb-3">
+          <span>Email : quiobot-test@email.com</span> <br>
+        <span>Password : test1234</span>
+       </div>
+        
         <div v-if="error" class="alert aler-danger" role="alert">
           {{ error }}
         </div>

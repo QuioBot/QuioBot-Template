@@ -3,7 +3,7 @@
 
       <hr/><br/>
       
-      <h4>This is demo for Vue js , FastApi and Postgresql Template </h4>
+      <h4>This demo is for Vue js , FastApi , Postgresql ,Docker and Google Kubernetes Engine </h4>
       <div v-if="isLoggedIn" id="logout">
         
       </div>
